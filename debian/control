@@ -1,0 +1,32 @@
+Source: golang-github-go-sql-driver-mysql
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Victor Seva <vseva@debian.org>
+Section: devel
+Testsuite: autopkgtest-pkg-go
+Priority: optional
+Build-Depends: debhelper-compat (= 13),
+               dh-golang,
+               golang-any
+Standards-Version: 4.5.0
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-go-sql-driver-mysql
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-go-sql-driver-mysql.git
+Homepage: https://github.com/go-sql-driver/mysql
+XS-Go-Import-Path: github.com/go-sql-driver/mysql
+
+Package: golang-github-go-sql-driver-mysql-dev
+Architecture: all
+Depends: ${misc:Depends}
+Description: MySQL-Driver for Go's database/sql package
+ Features:
+  - Lightweight and fast
+  - Native Go implementation. No C-bindings, just pure Go
+  - Connections over TCP/IPv4, TCP/IPv6 or Unix domain sockets
+  - Automatic handling of broken connections
+  - Automatic Connection Pooling (by database/sql package)
+  - Supports queries larger than 16MB
+  - Full sql.RawBytes support.
+  - Intelligent LONG DATA handling in prepared statements
+  - Secure LOAD DATA LOCAL INFILE support with file Whitelisting and io.Reader
+    support
+  - Optional time.Time parsing
+  - Optional placeholder interpolation

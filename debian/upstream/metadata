@@ -1,0 +1,4 @@
+Bug-Database: https://github.com/go-sql-driver/mysql/issues
+Bug-Submit: https://github.com/go-sql-driver/mysql/issues/new
+Repository: https://github.com/go-sql-driver/mysql.git
+Repository-Browse: https://github.com/go-sql-driver/mysql
