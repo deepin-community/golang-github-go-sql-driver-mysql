@@ -1,3 +1,17 @@
+golang-github-go-sql-driver-mysql (1.5.0-2deepin1) UNRELEASED; urgency=medium
+
+  * chore: skip test
+
+ -- bluesky <chenchongbiao@deepin.org>  Thu, 10 Aug 2023 21:18:49 +0800
+
+golang-github-go-sql-driver-mysql (1.5.0-2) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Apply multi-arch hints.
+    + golang-github-go-sql-driver-mysql-dev: Add Multi-Arch: foreign.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Wed, 14 Dec 2022 04:05:47 +0000
+
 golang-github-go-sql-driver-mysql (1.5.0-1) unstable; urgency=medium
 
   * Team upload.
