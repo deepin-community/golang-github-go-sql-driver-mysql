@@ -16,6 +16,7 @@ XS-Go-Import-Path: github.com/go-sql-driver/mysql
 Package: golang-github-go-sql-driver-mysql-dev
 Architecture: all
 Depends: ${misc:Depends}
+Multi-Arch: foreign
 Description: MySQL-Driver for Go's database/sql package
  Features:
   - Lightweight and fast
